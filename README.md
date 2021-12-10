@@ -27,7 +27,7 @@ Este archivo `README.md` documenta el desarrollo de esta primera práctica en HT
  - Images
  - Hyperlinks
  - Quote (comillas)
- 
+
 
 ##### Sugerencias:
 
@@ -37,7 +37,7 @@ Este archivo `README.md` documenta el desarrollo de esta primera práctica en HT
 
 ##### Control de calidad
 
-  - HTML válido: 
+  - HTML válido:
     - Etiquetas semánticas HTML5 tales como ```<header>```,```<footer>```, ```<article>```, ```<section>```, etc... se usan para darle sentido al código.
     - Que no haya selectores de secciones o div sin una clase CSS o id.
     - Todo el código en minúsculas.
@@ -67,7 +67,7 @@ Blog Post
 
 #### Sobre la Hoja de estilos
 
-  No tanto por el tamaño de la página pero si para empezar a seguir una guía de buenas prácticas y por recomendación de la profesora he decidido insertar mi hoja de estilos de manera externa `External CSS` y no `Internal CSS` como he estado usando hasta ahora, definidos dentro del elemento `<style>`, dentro de la sección '<head>' de la página HTML. 
+  No tanto por el tamaño de la página pero si para empezar a seguir una guía de buenas prácticas y por recomendación de la profesora he decidido insertar mi hoja de estilos de manera externa `External CSS` y no `Internal CSS` como he estado usando hasta ahora, definidos dentro del elemento `<style>`, dentro de la sección '<head>' de la página HTML.
 
   El archivo ```hojaestilos.css``` no contendrá ningún `tag` HTML, y en la página HTML ```index.html```  se hará referencia a esta hoja de estilos de la siguiente manera:
 
@@ -85,15 +85,15 @@ Mediante el uso de `<meta charset="UTF-8">` represento la codificación de cará
 - El servidor web guarda las páginas HTML estáticas.
 - El cliente web del usuario no representa igual las páginas....
 
-Para la representación del texto uso una herramienta online para convertir el texto simple a 
-codificación html (www.textfixeres.com/html/texto-a-html.php) 
+Para la representación del texto uso una herramienta online para convertir el texto simple a
+codificación html (www.textfixeres.com/html/texto-a-html.php)
 
 #### Accesibilidad
 
 #### Validación del código
 
-### Bibliografía y Herramientas
+### Bibliografia y Herramientas
 
 
 ---
-[aNDREUET648](https://github.com/aNDREUET648) 
+[aNDREUET648](https://github.com/aNDREUET648)
