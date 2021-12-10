@@ -65,7 +65,7 @@ Blog Post
 
 ### Consideraciones
 
-#### Sobre la hoja de estilos
+#### Sobre la Hoja de estilos
 
   No tanto por el tamaño de la página pero si para empezar a seguir una guía de buenas prácticas y por recomendación de la profesora he decidido insertar mi hoja de estilos de manera externa `External CSS` y no `Internal CSS` como he estado usando hasta ahora, definidos dentro del elemento `<style>`, dentro de la sección '<head>' de la página HTML. 
 
@@ -77,9 +77,16 @@ Blog Post
   </head>
 ```
 
-
-
 #### Carácteres especiales
+
+Mediante el uso de `<meta charset="UTF-8">` represento la codificación de carácteres UTF-8 (estándar en HTML5) aunque es posible que en algún proceso:
+
+- Otra persona interviene en la creación de la página y emplea codificación 88509-1.
+- El servidor web guarda las páginas HTML estáticas.
+- El cliente web del usuario no representa igual las páginas....
+
+Para la representación del texto uso una herramienta online para convertir el texto simple a 
+codificación html (www.textfixeres.com/html/texto-a-html.php) 
 
 #### Accesibilidad
 
