@@ -1,0 +1,103 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+body {
+    background-color:#A5AEBB;
+}
+article {
+    margin: 100px 0; 
+    padding: 50px 0;
+    border-top: 1px solid #242424;
+    border-bottom: 1px solid #242424;
+}
+h1 {
+    font-size:60px; 
+    margin-bottom:0;
+    font-weight: 900; 
+    text-transform: uppercase;
+}
+h2 {
+    font-size:20px; 
+    margin-top:0;
+    font-weight: 900
+}
+h3 {
+    font-size:40px; 
+    margin-top:0;
+    margin-bottom:0;
+    font-weight: 900; 
+    text-transform: uppercase;
+}
+h4 {
+    font-size:20px; 
+    margin-top:0;
+}
+h5 {
+    font-size:20px; 
+    font-weight: 900;
+    text-transform: uppercase;
+}
+a {
+    color:  #020874;
+    font-size:20px; 
+    margin-top:0;
+}
+p {
+    line-height: 1.5;
+    font-size:20px;
+}
+img {
+    max-width: 100%; 
+    height: auto;
+}
+form {
+    font-size:20px;
+}
+figure {
+    margin: 0;
+}
+form {
+    width: 500px; 
+    padding: 1em; 
+    border: 2px solid #CCC; 
+    border-radius: 1em;
+}
+footer {
+    background-color: #242424; 
+    color: #fff; 
+    padding: 25px; 
+    margin-top:50px; 
+    text-align: center
+}
+footer a {
+    color: #fff;
+}
+/*
+    Responsive Web Design
+    Datos extraídos del framework Bootstrap como los más comunes
+ */
+.container {
+    width: 100%; 
+    padding: 10px; 
+    margin: 0 auto;
+}
+@media (min-width: 576px) {                 /* web_browser > 576px  mobile (.col-xs-) */
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {                 /* web_browser > 768px  tablet (.col-sm-) */
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {                 /* web_browser > 992px  laptop (.col-md-) */
+    .container {
+        max-width: 960px;
+    }
+}  
+@media (min-width: 1200px) {                /* web_browser > 1200px desktop (.col-lg-) */
+    .container {
+        max-width: 1140px;
+    }
+}    
