@@ -1,6 +1,6 @@
 # 21724 - Aplicacions Distribuïdes a Internet i Interficies d'Usuari
 
-## ***Práctica HTML***
+## [***Práctica HTML***](https://github.com/aNDREUET648/adiu_practica1/blob/master/practica1.html)
 
 
 ## Tabla de contenido
@@ -12,11 +12,14 @@
   - [Carácteres especiales](#carácteres-especiales).
   - [Accesibilidad](#accesibilidad).
   - [Validación del código](#validación-del-código).
-- [Bibliografía y Herramientas](#bibliografía-y-herramientas)
+  - [HTML Responsive Web Design](#HTML-Responsive-Web-Design).
+- [Bibliografía y Herramientas](#bibliografía-y-herramientas).
 
 ### Introducción
 
 Este archivo `README.md` documenta el desarrollo de esta primera práctica en HTML.
+
+Al tener la necesidad de probar la página en la web para validarla con herramientas online y probarla desde distintos navegadores, decidí abrir cuenta en ***w3c.org*** y utilizar su servicios de _spaces_ donde poder alojarla. La dirección web donde poder visitarla es la siguiente (***https://andreuet.w3spaces.com***).
 
 ### Enunciado
 
@@ -90,14 +93,27 @@ codificación html (www.textfixeres.com/html/texto-a-html.php)
 
 #### Accesibilidad
 
-Durante la confección de la página se ha tenido todo el tiempo en cuenta el diseño pensando en la accesibilidad. Una vez finalizada, se ha testeado manualmente y validado con distintas herramientas tanto online como extensiones del navegador obteniendo un _Nivel de Conformidad AA_ indicándose así que se han cumplido todos los puntos de control de Prioridad 1 y Prioridad 2 definidos en las Directrices de la **WAI** (_Web Accessibility Initiative_). Incluyendo al final de la página el icono correspondiente a su Nivel de Conformidad
+Durante la confección de la página se ha tenido todo el tiempo en cuenta el diseño pensando en la accesibilidad. Una vez finalizada, se ha testeado manualmente y validado con distintas herramientas tanto online como extensiones del navegador obteniendo un _Nivel de Conformidad AA_ indicándose así que se han cumplido todos los puntos de control de Prioridad 1 y Prioridad 2 definidos en las Directrices de la **WAI** (_Web Accessibility Initiative_). Incluyendo al final de la página el icono correspondiente a su Nivel de Conformidad.
 
 #### Validación del código
 
-Del mismo modo finalizada la codificación de la página y para comprobar que todo mi código, tanto el HTML como la hoja de estilos CSS eran correctos también han sido evaluados con los validadores de la **W3C** (_The World Wide Web Consortium_) y con un resultado que el archivo ```hojaestilos.css``` es _CSS versión 3 + SVG_ válido! y el archivo ```index.html``` es _Valid XHTML 1.0 Strict_ favorable en ambos casos. Es por ello que, al final de la página he incluído los iconos correspondientes.
+Del mismo modo finalizada la codificación de la página y para comprobar que todo mi código, tanto el HTML como la hoja de estilos CSS eran correctos también han sido evaluados con los validadores de la **W3C** (_The World Wide Web Consortium_) y con un resultado que el archivo ```hojaestilos.css``` es _CSS versión 3 + SVG_ válido! y el archivo ```index.html``` es _Valid XHTML 1.0 Strict_. Es por ello que, al final de la página he incluído los iconos correspondientes.
+
+#### HTML Responsive Web Design
+
+Revisando el tutorial que ofrece w3c.org de HTML [Tutorial HTML](https://www.w3schools.com/html) me fije que tienen un apartado de [HTML Responsive](https://www.w3schools.com/html/html_responsive.asp) con la idea de adaptar la apariencia de las páginas web al dispositivo que se esté utilizando, ya sean móviles, laptops, tablets o desktops. Y aprovechando que era mi primera página web aproveché para incluir simplemente unos `media-query` o `breakpoints`como los llaman para dependiendo de donde se estuviese viendo la página se adaptase en tamaño. Destaqué cuatro tipos, todos los valores los extraje de información del framework `Bootstrap` considerándose como los más comunes.
 
 ### Bibliografía y Herramientas
 
+- [W3C](https://www.w3c.org) - Documentación y validadores HTML, CSS, Internacionalización y Accesibilidad
+- [w3schools](https://www.w3schools.com/default.asp) - Tutorial HTML, CSS y Responsive Design
+- [breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/) - Bootstrap breakpoints
+- [Responsive Web Design Tester](https://www.esolutions.se/) - Extensión Chrome
+- [WAVE Evaluation Tool](https://webaim.org/) - Extensión Chrome
+- [siteimprove](https://siteimprove.com/es-es/) - Extensión Chrome
+- [Google Lighthouse](https://developers.google.com/web) - Integrado en Google Chrome
+- [Tota11y from Khan Academy](https://khan.github.io/tota11y/) - Extensión Chrome
+- [axe DevTools](https://www.deque.com/) - Extensión de las herramientas de desarrollador
 
 ---
 [aNDREUET648](https://github.com/aNDREUET648)
