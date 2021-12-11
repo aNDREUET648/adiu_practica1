@@ -4,16 +4,16 @@
 
 
 ## Tabla de contenido
-- [Introducción](#introducción).
-- [Enunciado](#enunciado).
-- [Estructura](#estructura).
-- [Consideraciones](#consideraciones).
-  - [Sobre la Hoja de estilos](#sobre-la-hoja-de-estilos).
-  - [Carácteres especiales](#carácteres-especiales).
-  - [Accesibilidad](#accesibilidad).
-  - [Validación del código](#validación-del-código).
-  - [HTML Responsive Web Design](#HTML-Responsive-Web-Design).
-- [Bibliografía y Herramientas](#bibliografía-y-herramientas).
+- [Introducción](#introducción)
+- [Enunciado](#enunciado)
+- [Estructura](#estructura)
+- [Consideraciones](#consideraciones)
+  - [Sobre la Hoja de estilos](#sobre-la-hoja-de-estilos)
+  - [Carácteres especiales](#carácteres-especiales)
+  - [Accesibilidad](#accesibilidad)
+  - [Validación del código](#validación-del-código)
+  - [HTML Responsive Web Design](#HTML-Responsive-Web-Design)
+- [Bibliografía y Herramientas](#bibliografía-y-herramientas)
 
 ### Introducción
 
@@ -54,6 +54,7 @@ Al tener la necesidad de probar la página en la web para validarla con herramie
     - El código omite los atributos de tipo para las hojas de estilo y los scripts.
 
   [Enunciado Original](https://github.com/aNDREUET648/adiu_practica1/blob/master/ADIU%20-%20Practice%2029_11_21.pdf)
+---
 
 ### Estructura
 
@@ -65,6 +66,7 @@ Blog Post
 └── images                      Directorio de las imágenes
     └── Cardiacsphoto1.jpg       Imagen del grupo Cardiacs
 ```
+---
 
 ### Consideraciones
 
@@ -102,6 +104,7 @@ Del mismo modo finalizada la codificación de la página y para comprobar que to
 #### HTML Responsive Web Design
 
 Revisando el tutorial que ofrece w3c.org [Tutorial HTML](https://www.w3schools.com/html) me fije que tienen un apartado de [HTML Responsive](https://www.w3schools.com/html/html_responsive.asp) con la idea de adaptar la apariencia de las páginas web al dispositivo que se esté utilizando, ya sean móviles, laptops, tablets o desktops. Y aprovechando que era mi primera página web aproveché para incluir simplemente unos `media-query` o `breakpoints`como los llaman para dependiendo de donde se estuviese viendo la página se adaptase en tamaño. Destaqué cuatro tipos, todos los valores los extraje de información del framework `Bootstrap` considerándose como los más comunes.
+---
 
 ### Bibliografía y Herramientas
 
