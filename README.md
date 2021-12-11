@@ -8,11 +8,11 @@
 - [Enunciado](#enunciado).
 - [Estructura](#estructura).
 - [Consideraciones](#consideraciones).
-  - [Sobre la Hoja de estilos](#hoja-de-estilos).
-  - [Carácteres especiales](#caracteres-especiales).
+  - [Sobre la Hoja de estilos](#sobre-la-hoja-de-estilos).
+  - [Carácteres especiales](#carácteres-especiales).
   - [Accesibilidad](#accesibilidad).
-  - [Validación del código](#validacion-del-codigo).
-- [Bibliografía y Herramientas](#bibliografia-y-herramientas)
+  - [Validación del código](#validación-del-código).
+- [Bibliografía y Herramientas](#bibliografía-y-herramientas)
 
 ### Introducción
 
@@ -90,9 +90,13 @@ codificación html (www.textfixeres.com/html/texto-a-html.php)
 
 #### Accesibilidad
 
+Durante la confección de la página se ha tenido todo el tiempo en cuenta el diseño pensando en la accesibilidad. Una vez finalizada, se ha testeado manualmente y validado con distintas herramientas tanto online como extensiones del navegador obteniendo un _Nivel de Conformidad AA_ indicándose así que se han cumplido todos los puntos de control de Prioridad 1 y Prioridad 2 definidos en las Directrices de la **WAI** (_Web Accessibility Initiative_). Incluyendo al final de la página el icono correspondiente a su Nivel de Conformidad
+
 #### Validación del código
 
-### Bibliografia y Herramientas
+Del mismo modo finalizada la codificación de la página y para comprobar que todo mi código, tanto el HTML como la hoja de estilos CSS eran correctos también han sido evaluados con los validadores de la **W3C** (_The World Wide Web Consortium_) y con un resultado que el archivo ```hojaestilos.css``` es _CSS versión 3 + SVG_ válido! y el archivo ```index.html``` es _Valid XHTML 1.0 Strict_ favorable en ambos casos. Es por ello que, al final de la página he incluído los iconos correspondientes.
+
+### Bibliografía y Herramientas
 
 
 ---
