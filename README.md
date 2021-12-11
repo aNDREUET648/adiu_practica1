@@ -101,7 +101,7 @@ Del mismo modo finalizada la codificación de la página y para comprobar que to
 
 #### HTML Responsive Web Design
 
-Revisando el tutorial que ofrece w3c.org de HTML [Tutorial HTML](https://www.w3schools.com/html) me fije que tienen un apartado de [HTML Responsive](https://www.w3schools.com/html/html_responsive.asp) con la idea de adaptar la apariencia de las páginas web al dispositivo que se esté utilizando, ya sean móviles, laptops, tablets o desktops. Y aprovechando que era mi primera página web aproveché para incluir simplemente unos `media-query` o `breakpoints`como los llaman para dependiendo de donde se estuviese viendo la página se adaptase en tamaño. Destaqué cuatro tipos, todos los valores los extraje de información del framework `Bootstrap` considerándose como los más comunes.
+Revisando el tutorial que ofrece w3c.org [Tutorial HTML](https://www.w3schools.com/html) me fije que tienen un apartado de [HTML Responsive](https://www.w3schools.com/html/html_responsive.asp) con la idea de adaptar la apariencia de las páginas web al dispositivo que se esté utilizando, ya sean móviles, laptops, tablets o desktops. Y aprovechando que era mi primera página web aproveché para incluir simplemente unos `media-query` o `breakpoints`como los llaman para dependiendo de donde se estuviese viendo la página se adaptase en tamaño. Destaqué cuatro tipos, todos los valores los extraje de información del framework `Bootstrap` considerándose como los más comunes.
 
 ### Bibliografía y Herramientas
 
